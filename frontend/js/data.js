@@ -1,4 +1,4 @@
-export const months = [
+const months = [
   'january', 'february', 'march', 'april', 'may', 'june',
   'july', 'august', 'september', 'october', 'november', 'december'
 ];
@@ -14,7 +14,7 @@ export const months = [
  *   - income: Array of monthly income values.
  *   - expenses: Array of monthly expenses values.
  */
-export function getMonthlyData() {
+function getMonthlyData() {
   const income = [];
   const expenses = [];
   months.forEach(month => {
@@ -23,3 +23,5 @@ export function getMonthlyData() {
   });
   return { income, expenses };
 }
+
+module.exports = { months, getMonthlyData };

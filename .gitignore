@@ -1,15 +1,12 @@
-# Python virtual environment
+# Node.js
+node_modules/
+package-lock.json
+
+# Python
 venv/
-
-# Byte-compiled / cache files
 __pycache__/
-*.py[cod]
-*.pyo
+*.pyc
+.pytest_cache/
 
-# VS Code settings
-.vscode/
-
-# OS files
+# OS
 .DS_Store
-
-# Jupyter
