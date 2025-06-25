@@ -1,7 +1,7 @@
 /**
  * @jest-environment jsdom
  */
-const { months, getMonthlyData } = require('../js/data');
+import { months, getMonthlyData } from '../js/data.js';
 
 
 // Helper to create and append input elements to the DOM

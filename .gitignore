@@ -4,6 +4,7 @@ package-lock.json
 
 # Python
 venv/
+.env
 __pycache__/
 *.pyc
 .pytest_cache/

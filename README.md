@@ -28,6 +28,27 @@ To get started with the Bucks2Bar project, follow these steps:
 - Custom styles can be modified in `css/styles.css`.
 - JavaScript functionality can be found in `js/main.js`.
 
+## Running the App Locally
+To run the app locally:
+
+1. Install backend dependencies:
+   ```
+   cd backend && npm install
+   ```
+
+2. Create a `.env` file in `backend/` with your email credentials.
+
+3. Start the backend:
+   ```
+   npm start
+   ```
+   or
+   ```
+   node app.js
+   ```
+
+4. Visit `http://localhost:5000` in your browser.
+
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
 

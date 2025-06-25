@@ -40,3 +40,6 @@ export function updateChart() {
     chartInstance.update();
   }
 }
+
+const chartCanvas = document.getElementById('barChart');
+const pngDataUrl = chartCanvas.toDataURL('image/png');

@@ -1,6 +1,6 @@
 import { months } from './data.js';
 import { initChart, updateChart } from './chart.js';
-import { setupExcelExport, setupEmailSend } from './excel.js';
+import { setupExcelExport, setupEmailSend, setupChartEmailSend, setupChartScreenshotDownload } from './excel.js';
 
 // Wait for the DOM to be fully loaded before running scripts
 document.addEventListener('DOMContentLoaded', function () {
@@ -29,4 +29,8 @@ document.addEventListener('DOMContentLoaded', function () {
     setupExcelExport();
     // Set up email sending functionality
     setupEmailSend();
+    // Set up chart PNG email sending functionality
+    setupChartEmailSend();
+    // Set up chart PNG download functionality
+    setupChartScreenshotDownload();
 });
